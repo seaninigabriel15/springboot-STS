@@ -39,6 +39,8 @@ Go to pox.xml and comment the dependency starter data jpa
   2.Install Eclipse 
 
   3.Go to https://start.spring.io/
+
+
       Project : Maven
       Langgauge : Java
       Spring boot : 2.4.3
