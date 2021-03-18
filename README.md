@@ -63,7 +63,7 @@ Go to pox.xml and comment the dependency starter data jpa
       
   4. Select Dependencies : Web dependecies > Export > Extract on your chosen folder
   
-  5. Eclipse > File > import >Exixting Maven Proj > Select File
+  5. Eclipse > File > import >Existing Maven Project > Select File
   
   6. Create a class file under src/main/java > SBController.java
   
