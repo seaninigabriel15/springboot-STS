@@ -3,14 +3,20 @@
 Using the Spring Tool Suite 4 IDE 
 
 ## Spring boot on Spring Tool Suite 4
+
+<img src="img/STS.png">
+
 1. Download Spring Tool Suite 4 (JAR) on https://spring.io/tools
 2. Place and paste the jar in your chosen directory 
 3. Open the extracted File > Spring Application 
 4. Chosose your directory for the project
 5. Once open go to File> New > Spring Starter Project
 6. Fill the app name > Next > Add Dependencies > WEB/MySQL/Spring Data JPA
-7. Under the "src/main/java" create a class SBController.java
-8. Paste this :
+
+<img src="img/STS2.PNG">
+
+8. Under the "src/main/java" create a class SBController.java
+9. Paste this :
 
 
           package com.springboot.springapp;
@@ -34,6 +40,9 @@ failed to configure a datasource: 'url' attribute is not specified and no embedd
 
 Go to pox.xml and comment the dependency starter data jpa 
 ## Create Spring boot in Eclipse 
+
+<img src="img/eclipsests.jpg"  >
+
   1.Install Java JDK  
 
   2.Install Eclipse 
@@ -45,7 +54,9 @@ Go to pox.xml and comment the dependency starter data jpa
       Langgauge : Java
       Spring boot : 2.4.3
       Group.com.springboot
-      artficar/name: spring boot
+      Artifact/Name: SBDemo
+      
+   <img src="img/stseclipse2.PNG">
       
       
   4. Select Dependencies : Web dependecies and Export
@@ -56,7 +67,7 @@ Go to pox.xml and comment the dependency starter data jpa
   
   7. Paste this :
 
-              package com.springboot.springapp;
+              package com.springboot.sbdemo;
               import org.springframework.stereotype.Controller;
               import org.springframework.web.bind.annotation.ResponseBody;
               import org.springframework.web.bind.annotation.RequestMapping;
